@@ -36,13 +36,13 @@ MonoBehaviour:
     scale: 3.6
     brightness: 0.06
     colorMultiplier: {r: 1, g: 1, b: 1, a: 1}
-    open: 0
+    open: 1
   - flareShape: 5
     flareMesh: {fileID: 0}
     scale: 2.41
     brightness: 0.191
     colorMultiplier: {r: 0.972549, g: 0.972549, b: 0.972549, a: 1}
-    open: 0
+    open: 1
   flareMaterial: {fileID: 2100000, guid: 7724528df85009d4dadb42eb105e754e, type: 2}
   globalScale: 0.63
   globalBrightness: 1

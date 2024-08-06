@@ -49,19 +49,25 @@ MonoBehaviour:
     brightness: 0.057
     colorMultiplier: {r: 1, g: 1, b: 1, a: 1}
     open: 0
+  - flareShape: 27
+    flareMesh: {fileID: 0}
+    scale: 1
+    brightness: 1
+    colorMultiplier: {r: 1, g: 1, b: 1, a: 1}
+    open: 1
   flareMaterial: {fileID: 2100000, guid: 7724528df85009d4dadb42eb105e754e, type: 2}
-  globalScale: 0.7
+  globalScale: -0.42
   globalBrightness: 1
-  variationSpeed: 0.91
-  variationScale: 10
-  variationColor: {r: 1, g: 1, b: 1, a: 0.45490196}
+  variationSpeed: 2
+  variationScale: 23.2
+  variationColor: {r: 0.5857039, g: 0.31510323, b: 0.6886792, a: 0.70980394}
   showLayerSettings: 0
   showMainSettings: 0
   showVariationSettings: 0
   showFadingSettings: 0
   cameraDepthFadeStart: 1
   cameraDepthFadeEnd: 3
-  cameraDistanceFadeStart: 40
+  cameraDistanceFadeStart: 20
   cameraDistanceFadeEnd: 60
   sceneDepthFadeStart: -3
   sceneDepthFadeEnd: 3
