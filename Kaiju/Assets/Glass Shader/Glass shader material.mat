@@ -8,23 +8,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Glass shader material
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 8ced1235cc466ed49982db608f28a81b,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _EMISSION
-  - _SPECULAR_SETUP
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
-  - SHADOWCASTER
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -35,6 +30,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 83d2319143471a84fb9853aa65b8969b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -77,6 +76,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleReflectedCubemap_385e5f1bde2542fda967a47ff04d7f83_Cube_1_Cubemap:
+        m_Texture: {fileID: 8900000, guid: 3b43ea944b4518b40b0e478ea2fff31a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -103,8 +106,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _A: 3
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _B: 0.5
     - _Blend: 1
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -123,13 +128,18 @@ Material:
     - _Glossiness: 0.954
     - _GlossinessSource: 0
     - _GlossyReflections: 1
+    - _Line_Alpha: 0.4
+    - _Line_Width: 0
     - _Metallic: 0.896
     - _Mode: 3
     - _OcclusionStrength: 1
+    - _Offset: 0.2
     - _Parallax: 0.02
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Refraction: 2.13
+    - _Scale_Multiplier: 0.7
     - _Shininess: 0.747
     - _Smoothness: 0.954
     - _SmoothnessSource: 0
