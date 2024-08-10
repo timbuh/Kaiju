@@ -130,7 +130,7 @@ Material:
     - _GlossyReflections: 1
     - _Line_Alpha: 0.4
     - _Line_Width: 0
-    - _Metallic: 0.896
+    - _Metallic: 1
     - _Mode: 3
     - _OcclusionStrength: 1
     - _Offset: 0.2
@@ -141,7 +141,7 @@ Material:
     - _Refraction: 2.13
     - _Scale_Multiplier: 0.7
     - _Shininess: 0.747
-    - _Smoothness: 0.954
+    - _Smoothness: 1
     - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
     - _SpecSource: 0
@@ -156,7 +156,7 @@ Material:
     - __dirty: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 0.25999996, g: 0.18999997, b: 0.15999997, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

@@ -16,31 +16,31 @@ MonoBehaviour:
   - rayShape: 14
     rayMesh: {fileID: 0}
     brightness: 0.203
-    colorMultiplier: {r: 1, g: 1, b: 1, a: 1}
+    colorMultiplier: {r: 1, g: 0.4895674, b: 0, a: 1}
     position: {x: 0, y: 0, z: 3.13}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 2, y: 2, z: 1.4}
-    open: 0
+    open: 1
   - rayShape: 16
     rayMesh: {fileID: 0}
     brightness: 0.393
-    colorMultiplier: {r: 1, g: 1, b: 1, a: 1}
+    colorMultiplier: {r: 1, g: 0.8116398, b: 0, a: 1}
     position: {x: -0.76, y: 0.45, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-    open: 0
+    open: 1
   - rayShape: 15
     rayMesh: {fileID: 0}
     brightness: 0.393
-    colorMultiplier: {r: 1, g: 1, b: 1, a: 1}
+    colorMultiplier: {r: 1, g: 0.7275597, b: 0.5707547, a: 1}
     position: {x: 0.43, y: -0.32, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1.4, y: 1.4, z: 1}
-    open: 0
-  globalScale: 0.8
+    open: 1
+  globalScale: 3.14
   rayMaterial: {fileID: 2100000, guid: e349799befeba9948a28f3e1a260fa29, type: 2}
   globalRotation: {x: 42.600006, y: 307.26, z: 0}
-  globalBrightness: 0.368
+  globalBrightness: 1
   variationSpeed: 1
   variationScale: 10
   variationColor: {r: 1, g: 1, b: 1, a: 0.36862746}
@@ -49,12 +49,12 @@ MonoBehaviour:
   showVariationSettings: 0
   showFadingSettings: 0
   needsToBeUpdated: 0
-  useCameraDepthFade: 1
+  useCameraDepthFade: 0
   cameraDepthFadeStart: 1
   cameraDepthFadeEnd: 3
   useCameraDistanceFade: 1
-  cameraDistanceFadeStart: 40
-  cameraDistanceFadeEnd: 60
+  cameraDistanceFadeStart: 200
+  cameraDistanceFadeEnd: 300
   useSceneDepthFade: 1
   sceneDepthFadeStart: 0
   sceneDepthFadeEnd: 3
